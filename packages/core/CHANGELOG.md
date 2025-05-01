@@ -1,5 +1,16 @@
 # @voltagent/core
 
+## 0.1.11
+
+### Patch Changes
+
+- [`e5b3a46`](https://github.com/VoltAgent/voltagent/commit/e5b3a46e2e61f366fa3c67f9a37d4e4d9e0fe426) Thanks [@omeraplak](https://github.com/omeraplak)! - feat: enhance API Overview documentation
+
+  - Added `curl` examples for all key generation endpoints (`/text`, `/stream`, `/object`, `/stream-object`).
+  - Clarified that `userId` and `conversationId` options are optional.
+  - Provided separate `curl` examples demonstrating usage both with and without optional parameters (`userId`, `conversationId`).
+  - Added a new "Common Generation Options" section with a detailed table explaining parameters like `temperature`, `maxTokens`, `contextLimit`, etc., including their types and default values.
+
 ## 0.1.10
 
 ### Patch Changes
